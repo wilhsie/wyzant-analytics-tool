@@ -4,14 +4,14 @@
 Python 3
 
 Selenium Python Package
-Pip3 install selenium
+```pip3 install selenium```
 
-Selenium Webdriver
-https://github.com/mozilla/geckodriver/releases
+Selenium Webdriver - https://github.com/mozilla/geckodriver/releases
 
 ## wat dis?
 This program returns lesson data from your Wyzant Tutor account in JSON format:
 
+```
 [
 	{
 		"date": “1/29/2021”, 
@@ -21,6 +21,7 @@ This program returns lesson data from your Wyzant Tutor account in JSON format:
 	},
 	…
 ]
+```
 
 ## y tho?
 I wrote this a while ago before Wyzant had any visual analytics.  I wanted to visualize all of my lesson data and graph it.  I also have a Jupyter notebook that wrangles all of the JSON into nice graphs.  I might upload that later to my github.  Buttt yeh, until then.
